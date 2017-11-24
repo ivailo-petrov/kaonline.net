@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Big</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript"> <!--
+function setImage()
+{
+	window.document.big.src = opener.document.formHidden.big.value;
+	//while( !window.document.big.complete() );
+	//window.innerWidth = window.document.big.width;
+	//window.innerHeight = window.document.big.height;
+	//window.resizeTo(window.document.big.width, window.document.big.height);
+	window.focus();
+}
+function resize()
+{
+	if (window.innerWidth == null)
+	{
+		window.resizeTo(window.document.big.width+10, window.document.big.height+54);
+	}
+	else
+	{
+		window.resizeBy(window.document.big.width-window.innerWidth, window.document.big.height-window.innerHeight);
+	}
+}
+--></script>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0" onLoad="setImage()">
+	<img name="big" src="" OnLoad="resize()">
+</body>
+</html>

@@ -1,0 +1,17 @@
+a {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: normal; text-decoration: none; color: #000000}
+a:hover {  font-weight: bold}
+a:active {  font-weight: bold}
+
+.border_black {  border-color: black black black black; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+.border_black_l {  border: black solid; border-width: 0px 0px 0px 1px}
+.border_white_l {  border: white solid; border-width: 0px 0px 0px 1px}
+.border_white_lr { border: white solid; border-width: 0px 1px 0px 1px }
+
+.menu_link {  text-align: left}
+.menu_link_selected {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; text-align: left}
+
+.item_link {  text-align: center}
+
+.item_tag {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: normal; text-align: left; color: #FFFFFF}
+
+.title_text {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: normal}
